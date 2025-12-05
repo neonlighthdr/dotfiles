@@ -1,4 +1,4 @@
-# --- LSD Aliases ---
+# lsd aliases
 alias ls="lsd"
 alias ll="lsd -l"
 alias la="lsd -a"
