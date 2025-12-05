@@ -10,7 +10,7 @@
     "separator",
     {
       "type": "title",
-      "format": "ginh@localhost"
+      "format": "unknown@localhost"
     },
     "break",
     "separator",
