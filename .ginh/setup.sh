@@ -13,11 +13,14 @@ termux-setup-storage
 
 termux-reload-settings
 
-sleep 2
+sleep 1
 yes | apt upgrade
 clear
 sleep 1
 apt install -y fish micro
+
+chsh ~/../usr/bin/bash
+
 #chsh -s fish
 #echo "exec fish" >> ~/.bashrc
 mkdir -p ~/.config/fish
