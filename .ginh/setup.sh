@@ -1,7 +1,9 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 cd ../
+
 cd usr/etc/
+
 rm motd motd.sh motd-playstore
 
 clear
