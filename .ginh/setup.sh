@@ -16,7 +16,7 @@ termux-setup-storage
 termux-reload-settings
 
 #sleep 1
-#yes | apt upgrade
+yes | apt upgrade
 clear
 sleep 1
 apt install -y fish micro
