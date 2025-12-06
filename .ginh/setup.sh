@@ -16,10 +16,3 @@ clear
 sleep 1
 apt install -y fish micro
 clear
-#chsh -s fish
-#echo "exec fish" >> ~/.bashrc
-#mkdir -p ~/.config/fish
-#echo "set fish_greeting" > ~/.config/fish/config.fish
-#sleep 2
-#source ~/.bashrc
-#chsh ~/../usr/bin/bash
