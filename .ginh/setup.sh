@@ -15,8 +15,8 @@ termux-setup-storage
 
 termux-reload-settings
 
-#sleep 1
-yes | apt upgrade
+sleep 1
+apt upgrade -y -o Dpkg::Options::="--force-confold"
 clear
 sleep 1
 apt install -y fish micro
