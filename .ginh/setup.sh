@@ -14,13 +14,13 @@ termux-setup-storage
 termux-reload-settings
 
 sleep 2
-#yes | apt upgrade
+yes | apt upgrade
 clear
 sleep 1
 apt install -y fish micro
-chsh -s fish
+#chsh -s fish
 #echo "exec fish" >> ~/.bashrc
 mkdir -p ~/.config/fish
 echo "set fish_greeting" > ~/.config/fish/config.fish
-sleep 2
+#sleep 2
 #source ~/.bashrc
