@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-rm -f $PREFIX/etc/motd $PREFIX/etc/motd.sh $PREFIX/etc/motd-playstore
+rm $PREFIX/etc/motd $PREFIX/etc/motd.sh $PREFIX/etc/motd-playstore
 
 clear
 
@@ -13,8 +13,8 @@ termux-setup-storage
 
 termux-reload-settings
 
-sleep 3
-yes | apt upgrade
+sleep 2
+# yes | apt upgrade
 clear
 sleep 1
 apt install -y fish micro
@@ -23,5 +23,3 @@ mkdir -p ~/.config/fish
 echo "set fish_greeting" > ~/.config/fish/config.fish
 sleep 2
 source ~/.bashrc
-
-clear
