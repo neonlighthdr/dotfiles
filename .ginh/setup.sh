@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-rm $PREFIX/etc/motd $PREFIX/etc/motd.sh $PREFIX/etc/motd-playstore
+rm $PREFIX/etc/motd
 
 clear
 
@@ -14,7 +14,7 @@ termux-setup-storage
 termux-reload-settings
 
 sleep 2
-# yes | apt upgrade
+#yes | apt upgrade
 clear
 sleep 1
 apt install -y fish micro
